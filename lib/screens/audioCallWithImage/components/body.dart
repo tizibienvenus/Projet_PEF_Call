@@ -11,7 +11,7 @@ class Body extends StatelessWidget {
       children: [
         // Image
         Image.asset(
-          "assets/images/full_image.png",
+          "assets/images/barbara.jpg",
           fit: BoxFit.cover,
         ),
         // Black Layer
@@ -25,7 +25,7 @@ class Body extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Jemmy \nWilliams",
+                  "Mispa \nLaurilyne",
                   style: Theme.of(context)
                       .textTheme
                       .headline3
@@ -45,16 +45,19 @@ class Body extends StatelessWidget {
                     RoundedButton(
                       press: () {},
                       iconSrc: "assets/icons/Icon Mic.svg",
+                      iconColor: Colors.white.withOpacity(0.7),
                     ),
                     RoundedButton(
                       press: () {},
                       color: kRedColor,
                       iconColor: Colors.white,
                       iconSrc: "assets/icons/call_end.svg",
+                      
                     ),
                     RoundedButton(
                       press: () {},
                       iconSrc: "assets/icons/Icon Volume.svg",
+                      iconColor: Colors.white.withOpacity(0.7),
                     ),
                   ],
                 ),
